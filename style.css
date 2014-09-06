@@ -1,0 +1,118 @@
+* {
+	margin: 0px;
+	line-height: 120%;
+}
+
+header h1 {
+	font-family: 'Syncopate', sans-serif;
+	padding: 15px;
+}
+
+header p {
+	font-family: 'Kite One', sans-serif;
+}
+
+article p {
+	display: inline-block;
+}
+
+header {
+	text-align: center;
+	background-color: #7ACCC8;
+	height: 100px;
+}
+
+footer h3 {
+	font-family: 'Englebert', sans-serif;
+	margin: 10px auto 20px auto;
+}
+
+footer a {
+	margin: 20px;
+	font-family: 'Imprima', sans-serif;
+	text-decoration: none;
+	background-color: #E0E4CC;
+	border-radius: 4px;
+	font-size: 1.1em;
+	padding: 5px;
+	color: green;
+}
+
+#slides span {
+	font-family: 'Imprima', sans-serif;
+}
+
+#contacts {
+	position: absolute;
+	left: 80%;
+	bottom: 90%;
+}
+
+#projs {
+	position: relative;
+}
+
+#items {
+	position: relative;
+	width: 15%;
+	height: 380px;
+	float: left;
+	background-color: #E0E4CC;
+}
+
+#slides {
+	position: relative;
+	width: 85%;
+	height: 380px;
+	float: right;
+}
+
+#slides > div {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	text-align: center;
+}
+
+#items a {
+	display: block;
+	margin: 30px;
+	padding: 2px;
+	border-radius: 2px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Text Me One', sans-serif;
+}
+
+.side {
+	display: inline-block;
+}
+
+#contacts a {
+	text-decoration: none;
+	background-color: #E0E4CC;
+	border-radius: 4px;
+	font-size: 1.1em;
+	padding: 5px;
+	color: gray;
+}
+
+footer {
+	text-align: center;
+	margin: 0px;
+	position: absolute;
+	clear: both;
+	height: 120px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #7ACCC8;
+}
+
+a:hover {
+	font-weight: bolder;
+	color: blue;
+	text-decoration: underline;
+}
