@@ -40,6 +40,13 @@ footer a {
 
 #slides span {
 	font-family: 'Imprima', sans-serif;
+	font-weight: bolder;
+	color: blue;
+	font-size: 2em;
+}
+
+#slides p {
+	font-size: 1.5em;
 }
 
 #contacts {
@@ -55,35 +62,47 @@ footer a {
 #items {
 	position: relative;
 	width: 15%;
-	height: 380px;
+	height: 560px;
 	float: left;
 	background-color: #E0E4CC;
 }
 
-#slides {
+#share {
 	position: relative;
 	width: 85%;
-	height: 380px;
+	height: 560px;
 	float: right;
+	background-image: url("images/fifth.png");
+	background-repeat: repeat;
 }
 
-#slides > div {
+#intro {
 	position: absolute;
-	top: 10px;
-	left: 10px;
-	right: 10px;
-	bottom: 10px;
+	margin: 0;
 	text-align: center;
+	height: 560px;
+	width: 100%;
 }
 
+#intro p {
+	font-size: 2em;
+	text-align: center;
+	width: 800px;
+	position: relative;
+	margin: auto;
+	top: 40%;
+	font-family: cursive;
+	color: #5A6A62;
+}
 #items a {
 	display: block;
 	margin: 30px;
-	padding: 2px;
+	padding: 4px;
 	border-radius: 2px;
 	text-align: center;
 	text-decoration: none;
 	font-family: 'Text Me One', sans-serif;
+	font-size: 1.2em;
 }
 
 .side {
@@ -115,4 +134,13 @@ a:hover {
 	font-weight: bolder;
 	color: blue;
 	text-decoration: underline;
+}
+
+#slides > div {
+	display: none;
+	outline: 3px solid red;
+	background-color: #EFEFEF;
+	text-align: center;
+	position: relative;
+	margin: 40px auto auto 30px;
 }
