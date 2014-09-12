@@ -11,42 +11,60 @@ $(document).ready(function() {
 	}, 3000);*/
 	playSlides();
 
-	($("#items a").first()).mouseover(function(){
+	($("#items a").first()).mouseenter(function(){
 		$("#intro").hide();
 		$("#slides div").hide();
 		$("#slides div").first().slideDown();
+	}).mouseleave(function(){
+		$("#slides div").hide();
+		$("#intro").show();
 	});
-	($("#items a").first().next()).mouseover(function(){
+	($("#items a").first().next()).mouseenter(function(){
 		$("#intro").hide();
 		$("#slides div").hide();
 		$("#slides div").first().next().slideDown();
+	}).mouseleave(function(){
+		$("#slides div").hide();
+		$("#intro").show();
 	});
-	($("#items a").first().next().next()).mouseover(function(){
+	($("#items a").first().next().next()).mouseenter(function(){
 		$("#intro").hide();
 		$("#slides div").hide();
 		$("#slides div").first().next().next().slideDown();
+	}).mouseleave(function(){
+		$("#slides div").hide();
+		$("#intro").show();
 	});
-	($("#items a").first().next().next().next()).mouseover(function(){
+	($("#items a").first().next().next().next()).mouseenter(function(){
 		$("#intro").hide();
 		$("#slides div").hide();
 		$("#slides div").first().next().next().next().slideDown();
+	}).mouseleave(function(){
+		$("#slides div").hide();
+		$("#intro").show();
 	});
-	($("#items a").first().next().next().next().next()).mouseover(function(){
+	($("#items a").first().next().next().next().next()).mouseenter(function(){
 		$("#intro").hide();
 		$("#slides div").hide();
 		$("#slides div").first().next().next().next().next().slideDown();
+	}).mouseleave(function(){
+		$("#slides div").hide();
+		$("#intro").show();
 	});
-	($("#items a").last()).mouseover(function(){
+	($("#items a").last()).mouseenter(function(){
 		$("#intro").hide();
 		$("#slides div").hide();
 		$("#slides div").last().slideDown();
+	}).mouseleave(function(){
+		$("#slides div").hide();
+		$("#intro").show();
 	});
 
-	$("#items").mouseleave(function(){
+	/*$("#items").mouseleave(function(){
 		$("#slides").slideUp();
 		$("#intro").show();
 
-	});
+	});*/
 
 });
 
